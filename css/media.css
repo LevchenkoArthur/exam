@@ -15,7 +15,7 @@
  }
 
 
- @media (max-width: 830px){
+ @media (max-width: 863px){
 	.falldeaper__flex{
 		display: flex;
 		flex-direction: column;
@@ -27,6 +27,12 @@
 
 	.falldeaper__image{
 		text-align: center;
+	}
+
+	.falldeaper__image{
+		position: inherit;
+		right: 0px;
+		top: 00px;
 	}
 
 	.falldeaper__image img{

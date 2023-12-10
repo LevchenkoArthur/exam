@@ -19,6 +19,7 @@ header{
 	top: 0;
 	left: 0;
 	width: 100%;
+	z-index: 100;
 }
 
 
@@ -35,6 +36,7 @@ header:before{
 .container{
 	max-width: 1064px;;
 	margin: auto;
+	text-align: center;
 }
 
 .header__flex{
@@ -121,8 +123,8 @@ nav ul li:first-of-type{
 
 .fall__deaper{	
 	background-color:  #F0EFEB;
-	padding-top: 30px;
-	padding-bottom: 24px;
+	padding-top: 37px;
+	padding-bottom: 50px;
 	
 }
 
@@ -137,14 +139,16 @@ nav ul li:first-of-type{
 
 .falldeaper__body{
 	margin-top: 81px;
-	
+	max-width: 534px;
 }
 
 
 
 
 .falldeaper__image{
-
+	position: relative;
+	right: -100px;
+	top: 20px;
 }
 
 
@@ -191,8 +195,101 @@ nav ul li:first-of-type{
 
 
 
+.cards{
+	min-height: 564px;
+	padding-top: 60px;
+	padding-bottom: 248px;
+}
 
-.falldeaper__image img{
-	max-width: 599px;
-	max-height: 521px;
+.cards article h3{
+	color: #000;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 27px;
+}
+
+
+.cards article :nth-child(2){
+	margin: auto;
+	color: #000;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	max-width: 632px;
+	margin-bottom: 47px;
+}
+
+.cards article p:last-of-type{
+	color: #000;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 88px;
+}
+
+.cards h2{
+	color: #000;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	margin-bottom: 52px;
+}
+
+.cards__body{
+	display: flex;
+	justify-content: space-between;
+}
+
+.cards__body img{
+	margin-bottom: 27px;
+}
+
+.cards__body li :nth-child(2){
+	color: #000;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	max-width: 156px;
+	margin: auto;
+	margin-bottom: 17px;
+}
+
+.cards__body p:last-of-type{
+	color: #000;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	margin-bottom: 10px;
+
+}
+
+
+.cards__body a{
+	color: #000;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-decoration-line: underline;
 }
