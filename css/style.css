@@ -213,7 +213,7 @@ nav ul li:first-of-type{
 }
 
 
-.cards article :nth-child(2){
+.cards .head__cards :nth-child(2){
 	margin: auto;
 	color: #000;
 	text-align: center;
@@ -226,7 +226,7 @@ nav ul li:first-of-type{
 	margin-bottom: 47px;
 }
 
-.cards article p:last-of-type{
+.cards .head__cards p:last-of-type{
 	color: #000;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
@@ -248,7 +248,7 @@ nav ul li:first-of-type{
 	margin-bottom: 52px;
 }
 
-.cards__body{
+.cards .container{
 	display: flex;
 	justify-content: space-between;
 }
@@ -257,7 +257,12 @@ nav ul li:first-of-type{
 	margin-bottom: 27px;
 }
 
-.cards__body li :nth-child(2){
+.img__man{
+	min-height: 429px;
+}
+
+
+.cards__body :nth-child(2){
 	color: #000;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
