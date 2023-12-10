@@ -131,13 +131,13 @@ nav ul li:first-of-type{
 
 
 
-.falldeaper__flex{
+.fall__deaper .container{
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 }
 
 .falldeaper__body{
+	text-align: left;
 	margin-top: 81px;
 	max-width: 534px;
 }
@@ -250,17 +250,31 @@ nav ul li:first-of-type{
 
 .cards .container{
 	display: flex;
-	justify-content: space-between;
+	
+}
+
+
+
+
+.img__man{
+	text-align: center;
+}
+
+
+
+
+.cards__body article{
+	margin: auto;
+	
 }
 
 .cards__body img{
-	margin-bottom: 27px;
+	max-width: 314px;
+	max-height: 429px;
+	margin: auto;
+	margin-bottom: 20px;
+	
 }
-
-.img__man{
-	min-height: 429px;
-}
-
 
 .cards__body :nth-child(2){
 	color: #000;
@@ -298,3 +312,4 @@ nav ul li:first-of-type{
 	line-height: normal;
 	text-decoration-line: underline;
 }
+

@@ -9,18 +9,23 @@ $('document').ready(function(){
 $(document).ready(function(){
 	$('.owl-carousel').owlCarousel({
 	loop:true,
-		 margin:0,
+		 margin:0 ,
 		 nav:true,
 		 autoplay:true,
-		 autoplayTimeout:2000,
+		 autoplayTimeout:10000000,
 		 navText: [ '', ' ' ],
 
 		 responsive:{
 			  0:{
 					items:1
 			  },
+
+			  900:{
+				items:2
+		  },
+
 			  1100:{
-					items:5
+					items:3
 			  },
 		 }
 	});
