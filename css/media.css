@@ -67,8 +67,8 @@
 
 
  @media (max-width: 1100px){
-	.container.owl-carousel{
-		
+   .container.owl-carousel.owl-loaded.owl-drag{
+		max-width: 700px;
 	}
 
  }
