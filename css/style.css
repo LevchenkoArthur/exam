@@ -674,10 +674,10 @@ footer .logos__footer {
 .social {
   text-align: left;
 }
-.social img {
+.social a {
   margin-left: 20px;
 }
-.social img:first-of-type {
+.social a:first-of-type {
   margin-left: 0;
 }
 
