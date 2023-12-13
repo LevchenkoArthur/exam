@@ -8,7 +8,7 @@
 	.logo{
 		position: absolute;
 		z-index: 5;
-		left: 60%;
+		left: 65%;
 		top: 16px;
 		transform: translate(-50%,0px);
 	}
@@ -65,13 +65,66 @@
 		margin-bottom: 10px;
 	}
 
+	
+
+	.portraits .container.owl-carousel article img{
+		max-height: 354px;
+	}
+
  }
 
 
  @media (max-width: 1276px){
-	.falldeaper__image{
+	.fall__deaper{
+		overflow: hidden;
+	}
+ }
 
+
+	@media (max-width: 1276px){
+		.fall__deaper{
+			overflow: hidden;
+		}
+ }
+
+
+
+ @media (max-width: 587px){
+	.falldeaper__image{
+		position: relative;
 		
+	}
+
+	.falldeaper__image img{
+		width: 400px;
+	}
+
+	.contact{
+		margin-left: 10px;
+	}
+ }
+
+
+ @media (max-width: 1100px){
+	.container.owl-carousel .owl-nav .owl-prev{
+		display: block;
+		height: 50px;
+		width: 50px;
+		background-color: black;
+		border-radius: 50%;
+		position: absolute;
+		top: 35%;
+		right: -9%;
+	}
+	.container.owl-carousel .owl-nav .owl-next{
+		display: block;
+		background-color: black;
+		height: 50px;
+		width: 50px;
+		border-radius: 50%;
+		position: absolute;
+		top: 35.5%;
+		left: -10%;
 	}
  }
 
@@ -87,7 +140,7 @@
 		display: block;
 		height: 50px;
 		width: 50px;
-		background-color: black;
+		background-color: grey;
 		border-radius: 50%;
 		position: absolute;
 		top: 35%;
@@ -95,7 +148,7 @@
 	}
 	.container.owl-carousel .owl-nav .owl-next{
 		display: block;
-		background-color: black;
+		background-color: grey;
 		height: 50px;
 		width: 50px;
 		border-radius: 50%;
@@ -103,13 +156,63 @@
 		top: 35.5%;
 		left: 5%;
 	}
+
+	.container.owl-carousel .owl-nav .owl-prev::after{
+		content: ">";
+		display: block;
+		font-size: 20px;
+		color: white;
+	}
+
+	.container.owl-carousel .owl-nav .owl-next::after{
+		content: "<";
+		display: block;
+		font-size: 20px;
+		color: white;
+	}
+	
+
+
+
+	.default .container{
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+}
+
+	.default .container img{
+		max-width: 300px;
+		margin: auto;
+	}
+
+	
+
+	.default .container article{
+		text-align: center;
+		margin-left: 0;
+	}
+
+	.default .container article p:first-of-type{
+		margin: auto;
+	}
+
+
+
+	.default.second .container article{
+		order: 1;
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
+	}
+
+	.default.second .container img{
+		order: 0;
+	}
  }
 
 
 
-
 @media (max-width: 767px) {
-
 	.logo{
 		left: 50%;
 	}
