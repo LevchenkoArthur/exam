@@ -12,7 +12,7 @@ $(document).ready(function(){
 		 margin:0 ,
 		 nav:true,
 		 autoplay:true,
-		 autoplayTimeout:1000000,
+		 autoplayTimeout:2500,
 		 navText: [ '', ' ' ],
 
 		 responsive:{

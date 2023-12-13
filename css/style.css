@@ -147,7 +147,7 @@ nav ul li:first-of-type{
 
 .falldeaper__image{
 	position: relative;
-	right: -100px;
+	right: -10%;
 	top: 20px;
 }
 
@@ -276,7 +276,7 @@ nav ul li:first-of-type{
 	
 }
 
-.cards__body :nth-child(2){
+.cards__body p:first-of-type{
 	color: #000;
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
@@ -313,3 +313,43 @@ nav ul li:first-of-type{
 	text-decoration-line: underline;
 }
 
+
+
+
+
+.container.owl-carousel .owl-nav .owl-prev{
+	display: block;
+	height: 50px;
+	width: 50px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute;
+	top: 35%;
+}
+
+
+.container.owl-carousel .owl-nav .owl-next{
+	display: block;
+	background-color: black;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	position: absolute;
+	top: 35.5%;
+	left: 16px;
+}
+
+ .owl-carousel .owl-nav .owl-prev::after{
+	display: inline-block;
+	content: ">";
+	font-size: 16px;
+	color: white;
+}
+
+
+.owl-carousel .owl-nav .owl-next::after{
+	display: inline-block;
+	content: "<";
+	font-size: 16px;
+	color: white;
+}
