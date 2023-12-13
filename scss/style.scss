@@ -345,6 +345,9 @@ nav ul li:first-of-type{
 
 
 .default{
+	img{
+		width: 385px;
+	}
 	padding-top: 76px;
 	padding-bottom: 51px;
 	background-color:rgba(204, 204, 204, 0.30);
@@ -368,10 +371,11 @@ nav ul li:first-of-type{
 	}
 	article{
 		margin-top: 63px;
-		margin-bottom: 63px;
 		margin-left: 50px;
 		text-align: left;
 		a{
+			display: block;
+			margin-top: 40px;
 			color: #000;
 			font-family: 'Roboto', sans-serif;
 			font-size: 17px;
@@ -379,7 +383,6 @@ nav ul li:first-of-type{
 			font-weight: 700;
 			line-height: normal;
 			text-decoration-line: underline;
-			margin-top: 40px;
 		}
 		h3{
 			color: #000;

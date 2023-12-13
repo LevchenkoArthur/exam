@@ -364,6 +364,9 @@ nav ul li:first-of-type {
   padding-bottom: 51px;
   background-color: rgba(204, 204, 204, 0.3);
 }
+.default img {
+  width: 385px;
+}
 .default .container {
   display: flex;
   justify-content: left;
@@ -380,11 +383,12 @@ nav ul li:first-of-type {
 }
 .default article {
   margin-top: 63px;
-  margin-bottom: 63px;
   margin-left: 50px;
   text-align: left;
 }
 .default article a {
+  display: block;
+  margin-top: 40px;
   color: #000;
   font-family: "Roboto", sans-serif;
   font-size: 17px;
@@ -392,7 +396,6 @@ nav ul li:first-of-type {
   font-weight: 700;
   line-height: normal;
   text-decoration-line: underline;
-  margin-top: 40px;
 }
 .default article h3 {
   color: #000;
